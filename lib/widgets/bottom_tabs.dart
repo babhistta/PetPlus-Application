@@ -18,17 +18,13 @@ class _BottomTabsState extends State<BottomTabs> {
     _selectedTab = widget.selectedTab ?? 0;
 
     return Container(
-      decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(12.0), topRight: Radius.circular(12.0)),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.05),
-              spreadRadius: 1.0,
-              blurRadius: 30.0,
-            )
-          ]),
+      decoration: BoxDecoration(color: Colors.white, boxShadow: [
+        BoxShadow(
+          color: Colors.black.withOpacity(0.05),
+          spreadRadius: 1.0,
+          blurRadius: 30.0,
+        )
+      ]),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

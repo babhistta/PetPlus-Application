@@ -114,6 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: Constants.boldHeading,
                 ),
               ),
+
               Column(
                 children: [
                   CustomInput(

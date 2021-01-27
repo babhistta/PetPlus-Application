@@ -36,7 +36,7 @@ class PetCard extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12.0),
         ),
-        height: 350.0,
+        height: 200.0,
         margin: EdgeInsets.symmetric(
           vertical: 12.0,
           horizontal: 24.0,
@@ -44,7 +44,7 @@ class PetCard extends StatelessWidget {
         child: Stack(
           children: [
             Container(
-              height: 350.0,
+              height: 200.0,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(12.0),
                 child: Image.network(
@@ -61,12 +61,15 @@ class PetCard extends StatelessWidget {
                 padding: const EdgeInsets.all(0.0),
                 child: new Container(
                   width: 200.0,
-                  height: 90.0,
+                  height: 50,
                   decoration: new BoxDecoration(
                     color: Colors.grey.shade200.withOpacity(0.5),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(24.0),
+                    padding: const EdgeInsets.only(
+                      left: 24,
+                      right: 24,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [

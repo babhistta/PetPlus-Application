@@ -36,7 +36,7 @@ class CustomInput extends StatelessWidget {
             contentPadding: EdgeInsets.symmetric(
               horizontal: 24.0,
               vertical: 20.0,
-            )
+            ) 
         ),
         style: Constants.regularDarkText,
       ),

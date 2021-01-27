@@ -98,7 +98,7 @@ class _PetPageState extends State<PetPage> {
                             ),
                           ),
                           Text(
-                            "${documentData['ras'][0]}",
+                            "${documentData['jenis'][0]}",
                             style: TextStyle(
                                 fontSize: 16.0, fontWeight: FontWeight.w900),
                           ),
